@@ -1,0 +1,42 @@
+Feature: Verifying options in Dashboard
+
+  Scenario: verify Options Under AboutTab                [90m# Dashboard.feature:3[0m
+    [32mGiven [0m[32mI go to UNO on "[0m[32m[1mMozilla[0m[32m"[0m                       [90m# AllStepMethods.gotoUno(String)[0m
+    [32mAnd [0m[32mI click on "[0m[32m[1mABOUT[0m[32m"[0m                               [90m# AllStepMethods.click(String)[0m
+    [32mThen [0m[32mI verifyOptionsUnderTab "[0m[32m[1mABOUT_UNO[0m[32m"[0m             [90m# AllStepMethods.i_verifyOptionsUnderTab(String)[0m
+    [32mThen [0m[32mI verifyOptionsUnderTab "[0m[32m[1mUNO_AT_GLANCE[0m[32m"[0m         [90m# AllStepMethods.i_verifyOptionsUnderTab(String)[0m
+    [32mThen [0m[32mI verifyOptionsUnderTab "[0m[32m[1mMISSION_VISION[0m[32m"[0m        [90m# AllStepMethods.i_verifyOptionsUnderTab(String)[0m
+    [32mThen [0m[32mI verifyOptionsUnderTab "[0m[32m[1mAdministrative_OFFICE[0m[32m"[0m [90m# AllStepMethods.i_verifyOptionsUnderTab(String)[0m
+    [32mThen [0m[32mI verifyOptionsUnderTab "[0m[32m[1mOFFICE_PRESIDENT[0m[32m"[0m      [90m# AllStepMethods.i_verifyOptionsUnderTab(String)[0m
+    [32mThen [0m[32mI verifyOptionsUnderTab "[0m[32m[1mALUMNI[0m[32m"[0m                [90m# AllStepMethods.i_verifyOptionsUnderTab(String)[0m
+    [32mThen [0m[32mI verifyOptionsUnderTab "[0m[32m[1mUNO_HISTORY[0m[32m"[0m           [90m# AllStepMethods.i_verifyOptionsUnderTab(String)[0m
+
+  Scenario: verify Regarding Prospective Student Tab Navigation Options Under AboutTab [90m# Dashboard.feature:14[0m
+    [32mGiven [0m[32mI go to UNO on "[0m[32m[1mMozilla[0m[32m"[0m                                                     [90m# AllStepMethods.gotoUno(String)[0m
+    [32mAnd [0m[32mI click on "[0m[32m[1mPROSPECTIVE_STUDENTS[0m[32m"[0m                                              [90m# AllStepMethods.click(String)[0m
+    [31mThen [0m[31mI verifyThePageUrlIs "[0m[31m[1mhttp://uno.edu/prospectivestudents/index.aspx[0m[31m"[0m          [90m# AllStepMethods.i_verifyThePageUrlIs(String)[0m
+      [31morg.junit.ComparisonFailure: expected:<http://[www.]uno.edu/prospectives...> but was:<http://[]uno.edu/prospectives...>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at org.junit.Assert.assertEquals(Assert.java:144)
+      	at stepDefination.AllStepMethods.i_verifyThePageUrlIs(AllStepMethods.java:91)
+      	at ✽.Then I verifyThePageUrlIs "http://uno.edu/prospectivestudents/index.aspx"(Dashboard.feature:17)
+      [0m
+
+  Scenario: verify Footer Links                 [90m# Dashboard.feature:20[0m
+    [32mGiven [0m[32mI go to UNO on "[0m[32m[1mMozilla[0m[32m"[0m              [90m# AllStepMethods.gotoUno(String)[0m
+    [32mThen [0m[32mI verifyFooterLink "[0m[32m[1mNON_DISC_FTR_LNK[0m[32m"[0m  [90m# AllStepMethods.i_verifyFooterLink(String)[0m
+    [32mThen [0m[32mI verifyFooterLink "[0m[32m[1mEMERGENCY_FTR_LNK[0m[32m"[0m [90m# AllStepMethods.i_verifyFooterLink(String)[0m
+    [32mThen [0m[32mI verifyFooterLink "[0m[32m[1mCONTACT_FTR_LNK[0m[32m"[0m   [90m# AllStepMethods.i_verifyFooterLink(String)[0m
+    [32mThen [0m[32mI verifyFooterLink "[0m[32m[1mSACSOC_FTR_LNK[0m[32m"[0m    [90m# AllStepMethods.i_verifyFooterLink(String)[0m
+    [32mThen [0m[32mI verifyFooterLink "[0m[32m[1mCOPYRIGHT_FTR_LNK[0m[32m"[0m [90m# AllStepMethods.i_verifyFooterLink(String)[0m
+
+  Scenario: verify Facebook From Dashboard                                      [90m# Dashboard.feature:29[0m
+    [32mGiven [0m[32mI go to UNO on "[0m[32m[1mMozilla[0m[32m"[0m                                              [90m# AllStepMethods.gotoUno(String)[0m
+    [32mAnd [0m[32mI click on "[0m[32m[1mFACEBOOK[0m[32m"[0m                                                   [90m# AllStepMethods.click(String)[0m
+    [32mThen [0m[32mI verifyThePageUrlIs "[0m[32m[1mhttps://www.facebook.com/UniversityOfNewOrleans[0m[32m"[0m [90m# AllStepMethods.i_verifyThePageUrlIs(String)[0m
+
+  Scenario: verifying Giving Link      [90m# Dashboard.feature:35[0m
+    [32mGiven [0m[32mI go to UNO on "[0m[32m[1mMozilla[0m[32m"[0m     [90m# AllStepMethods.gotoUno(String)[0m
+    [32mAnd [0m[32mI click on "[0m[32m[1mGIVING[0m[32m"[0m            [90m# AllStepMethods.click(String)[0m
+    [32mAnd [0m[32mSwitchToChildWindow "[0m[32m[1m1[0m[32m"[0m        [90m# AllStepMethods.switchtochildwindow(String)[0m
+    [32mThen [0m[32mhoveron "[0m[32m[1mGift_BUSINESS_ADMIN[0m[32m"[0m [90m# AllStepMethods.hoveron(String)[0m

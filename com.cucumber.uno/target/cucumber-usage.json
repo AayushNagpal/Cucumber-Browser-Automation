@@ -1,0 +1,313 @@
+[
+  {
+    "source": "^I verifyFooterLink \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "I verifyFooterLink \"NON_DISC_FTR_LNK\"",
+        "aggregatedDurations": {
+          "average": 0.505158727,
+          "median": 0.505158727
+        },
+        "durations": [
+          {
+            "duration": 0.505158727,
+            "location": "Dashboard.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I verifyFooterLink \"EMERGENCY_FTR_LNK\"",
+        "aggregatedDurations": {
+          "average": 0.275461693,
+          "median": 0.275461693
+        },
+        "durations": [
+          {
+            "duration": 0.275461693,
+            "location": "Dashboard.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "I verifyFooterLink \"CONTACT_FTR_LNK\"",
+        "aggregatedDurations": {
+          "average": 0.291919903,
+          "median": 0.291919903
+        },
+        "durations": [
+          {
+            "duration": 0.291919903,
+            "location": "Dashboard.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "I verifyFooterLink \"SACSOC_FTR_LNK\"",
+        "aggregatedDurations": {
+          "average": 0.319918989,
+          "median": 0.319918989
+        },
+        "durations": [
+          {
+            "duration": 0.319918989,
+            "location": "Dashboard.feature:25"
+          }
+        ]
+      },
+      {
+        "name": "I verifyFooterLink \"COPYRIGHT_FTR_LNK\"",
+        "aggregatedDurations": {
+          "average": 0.326982644,
+          "median": 0.326982644
+        },
+        "durations": [
+          {
+            "duration": 0.326982644,
+            "location": "Dashboard.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^hoveron \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "hoveron \"Gift_BUSINESS_ADMIN\"",
+        "aggregatedDurations": {
+          "average": 6.713880911,
+          "median": 6.713880911
+        },
+        "durations": [
+          {
+            "duration": 6.713880911,
+            "location": "Dashboard.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I verifyThePageUrlIs \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "I verifyThePageUrlIs \"https://www.facebook.com/UniversityOfNewOrleans\"",
+        "aggregatedDurations": {
+          "average": 4.620505332,
+          "median": 4.620505332
+        },
+        "durations": [
+          {
+            "duration": 4.620505332,
+            "location": "Dashboard.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I go to UNO on \"([a-zA-Z]{1,})\"$",
+    "steps": [
+      {
+        "name": "I go to UNO on \"Mozilla\"",
+        "aggregatedDurations": {
+          "average": 6.328286761,
+          "median": 6.123001565
+        },
+        "durations": [
+          {
+            "duration": 7.586681779,
+            "location": "Dashboard.feature:4"
+          },
+          {
+            "duration": 5.810552956,
+            "location": "Dashboard.feature:15"
+          },
+          {
+            "duration": 6.123001565,
+            "location": "Dashboard.feature:21"
+          },
+          {
+            "duration": 5.870810374,
+            "location": "Dashboard.feature:30"
+          },
+          {
+            "duration": 6.250387131,
+            "location": "Dashboard.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "I click on \"ABOUT\"",
+        "aggregatedDurations": {
+          "average": 0.835042242,
+          "median": 0.835042242
+        },
+        "durations": [
+          {
+            "duration": 0.835042242,
+            "location": "Dashboard.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"PROSPECTIVE_STUDENTS\"",
+        "aggregatedDurations": {
+          "average": 0.821743222,
+          "median": 0.821743222
+        },
+        "durations": [
+          {
+            "duration": 0.821743222,
+            "location": "Dashboard.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"FACEBOOK\"",
+        "aggregatedDurations": {
+          "average": 0.801178806,
+          "median": 0.801178806
+        },
+        "durations": [
+          {
+            "duration": 0.801178806,
+            "location": "Dashboard.feature:31"
+          }
+        ]
+      },
+      {
+        "name": "I click on \"GIVING\"",
+        "aggregatedDurations": {
+          "average": 0.878284465,
+          "median": 0.878284465
+        },
+        "durations": [
+          {
+            "duration": 0.878284465,
+            "location": "Dashboard.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I verifyOptionsUnderTab \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "I verifyOptionsUnderTab \"ABOUT_UNO\"",
+        "aggregatedDurations": {
+          "average": 1.686347449,
+          "median": 1.686347449
+        },
+        "durations": [
+          {
+            "duration": 1.686347449,
+            "location": "Dashboard.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "I verifyOptionsUnderTab \"UNO_AT_GLANCE\"",
+        "aggregatedDurations": {
+          "average": 0.28303874,
+          "median": 0.28303874
+        },
+        "durations": [
+          {
+            "duration": 0.28303874,
+            "location": "Dashboard.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I verifyOptionsUnderTab \"MISSION_VISION\"",
+        "aggregatedDurations": {
+          "average": 0.294734514,
+          "median": 0.294734514
+        },
+        "durations": [
+          {
+            "duration": 0.294734514,
+            "location": "Dashboard.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I verifyOptionsUnderTab \"Administrative_OFFICE\"",
+        "aggregatedDurations": {
+          "average": 0.340776043,
+          "median": 0.340776043
+        },
+        "durations": [
+          {
+            "duration": 0.340776043,
+            "location": "Dashboard.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "I verifyOptionsUnderTab \"OFFICE_PRESIDENT\"",
+        "aggregatedDurations": {
+          "average": 0.3093831,
+          "median": 0.3093831
+        },
+        "durations": [
+          {
+            "duration": 0.3093831,
+            "location": "Dashboard.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "I verifyOptionsUnderTab \"ALUMNI\"",
+        "aggregatedDurations": {
+          "average": 0.311506231,
+          "median": 0.311506231
+        },
+        "durations": [
+          {
+            "duration": 0.311506231,
+            "location": "Dashboard.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "I verifyOptionsUnderTab \"UNO_HISTORY\"",
+        "aggregatedDurations": {
+          "average": 0.318260554,
+          "median": 0.318260554
+        },
+        "durations": [
+          {
+            "duration": 0.318260554,
+            "location": "Dashboard.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^SwitchToChildWindow \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "SwitchToChildWindow \"1\"",
+        "aggregatedDurations": {
+          "average": 0.278265636,
+          "median": 0.278265636
+        },
+        "durations": [
+          {
+            "duration": 0.278265636,
+            "location": "Dashboard.feature:38"
+          }
+        ]
+      }
+    ]
+  }
+]

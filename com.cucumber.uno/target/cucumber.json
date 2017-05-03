@@ -1,0 +1,568 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "verify Options Under AboutTab",
+        "description": "",
+        "id": "verifying-options-in-dashboard;verify-options-under-abouttab",
+        "after": [
+          {
+            "result": {
+              "duration": 486701211,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AllStepMethods.browserquit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7586681779,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I go to UNO on \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 16
+                }
+              ],
+              "location": "AllStepMethods.gotoUno(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 835042242,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on \"ABOUT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABOUT",
+                  "offset": 12
+                }
+              ],
+              "location": "AllStepMethods.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1686347449,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verifyOptionsUnderTab \"ABOUT_UNO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABOUT_UNO",
+                  "offset": 25
+                }
+              ],
+              "location": "AllStepMethods.i_verifyOptionsUnderTab(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 283038740,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verifyOptionsUnderTab \"UNO_AT_GLANCE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNO_AT_GLANCE",
+                  "offset": 25
+                }
+              ],
+              "location": "AllStepMethods.i_verifyOptionsUnderTab(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 294734514,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verifyOptionsUnderTab \"MISSION_VISION\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MISSION_VISION",
+                  "offset": 25
+                }
+              ],
+              "location": "AllStepMethods.i_verifyOptionsUnderTab(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 340776043,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verifyOptionsUnderTab \"Administrative_OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Administrative_OFFICE",
+                  "offset": 25
+                }
+              ],
+              "location": "AllStepMethods.i_verifyOptionsUnderTab(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309383100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verifyOptionsUnderTab \"OFFICE_PRESIDENT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OFFICE_PRESIDENT",
+                  "offset": 25
+                }
+              ],
+              "location": "AllStepMethods.i_verifyOptionsUnderTab(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 311506231,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verifyOptionsUnderTab \"ALUMNI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ALUMNI",
+                  "offset": 25
+                }
+              ],
+              "location": "AllStepMethods.i_verifyOptionsUnderTab(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 318260554,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verifyOptionsUnderTab \"UNO_HISTORY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UNO_HISTORY",
+                  "offset": 25
+                }
+              ],
+              "location": "AllStepMethods.i_verifyOptionsUnderTab(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "verify Regarding Prospective Student Tab Navigation Options Under AboutTab",
+        "description": "",
+        "id": "verifying-options-in-dashboard;verify-regarding-prospective-student-tab-navigation-options-under-abouttab",
+        "after": [
+          {
+            "result": {
+              "duration": 536037814,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AllStepMethods.browserquit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5810552956,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I go to UNO on \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 16
+                }
+              ],
+              "location": "AllStepMethods.gotoUno(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 821743222,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on \"PROSPECTIVE_STUDENTS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PROSPECTIVE_STUDENTS",
+                  "offset": 12
+                }
+              ],
+              "location": "AllStepMethods.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1240744923,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003chttp://[www.]uno.edu/prospectives...\u003e but was:\u003chttp://[]uno.edu/prospectives...\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefination.AllStepMethods.i_verifyThePageUrlIs(AllStepMethods.java:91)\r\n\tat ✽.Then I verifyThePageUrlIs \"http://uno.edu/prospectivestudents/index.aspx\"(Dashboard.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "I verifyThePageUrlIs \"http://uno.edu/prospectivestudents/index.aspx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://uno.edu/prospectivestudents/index.aspx",
+                  "offset": 22
+                }
+              ],
+              "location": "AllStepMethods.i_verifyThePageUrlIs(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "verify Footer Links",
+        "description": "",
+        "id": "verifying-options-in-dashboard;verify-footer-links",
+        "after": [
+          {
+            "result": {
+              "duration": 399414446,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AllStepMethods.browserquit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6123001565,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I go to UNO on \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 16
+                }
+              ],
+              "location": "AllStepMethods.gotoUno(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 505158727,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verifyFooterLink \"NON_DISC_FTR_LNK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NON_DISC_FTR_LNK",
+                  "offset": 20
+                }
+              ],
+              "location": "AllStepMethods.i_verifyFooterLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275461693,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I verifyFooterLink \"EMERGENCY_FTR_LNK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EMERGENCY_FTR_LNK",
+                  "offset": 20
+                }
+              ],
+              "location": "AllStepMethods.i_verifyFooterLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 291919903,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I verifyFooterLink \"CONTACT_FTR_LNK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CONTACT_FTR_LNK",
+                  "offset": 20
+                }
+              ],
+              "location": "AllStepMethods.i_verifyFooterLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 319918989,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verifyFooterLink \"SACSOC_FTR_LNK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SACSOC_FTR_LNK",
+                  "offset": 20
+                }
+              ],
+              "location": "AllStepMethods.i_verifyFooterLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 326982644,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I verifyFooterLink \"COPYRIGHT_FTR_LNK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "COPYRIGHT_FTR_LNK",
+                  "offset": 20
+                }
+              ],
+              "location": "AllStepMethods.i_verifyFooterLink(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "verify Facebook From Dashboard",
+        "description": "",
+        "id": "verifying-options-in-dashboard;verify-facebook-from-dashboard",
+        "after": [
+          {
+            "result": {
+              "duration": 558648838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AllStepMethods.browserquit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5870810374,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I go to UNO on \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 16
+                }
+              ],
+              "location": "AllStepMethods.gotoUno(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 801178806,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on \"FACEBOOK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FACEBOOK",
+                  "offset": 12
+                }
+              ],
+              "location": "AllStepMethods.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4620505332,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verifyThePageUrlIs \"https://www.facebook.com/UniversityOfNewOrleans\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.facebook.com/UniversityOfNewOrleans",
+                  "offset": 22
+                }
+              ],
+              "location": "AllStepMethods.i_verifyThePageUrlIs(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "verifying Giving Link",
+        "description": "",
+        "id": "verifying-options-in-dashboard;verifying-giving-link",
+        "after": [
+          {
+            "result": {
+              "duration": 474781437,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AllStepMethods.browserquit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6250387131,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I go to UNO on \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 16
+                }
+              ],
+              "location": "AllStepMethods.gotoUno(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 878284465,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on \"GIVING\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GIVING",
+                  "offset": 12
+                }
+              ],
+              "location": "AllStepMethods.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278265636,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "SwitchToChildWindow \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "AllStepMethods.switchtochildwindow(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6713880911,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "hoveron \"Gift_BUSINESS_ADMIN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gift_BUSINESS_ADMIN",
+                  "offset": 9
+                }
+              ],
+              "location": "AllStepMethods.hoveron(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying options in Dashboard",
+    "description": "",
+    "id": "verifying-options-in-dashboard",
+    "keyword": "Feature",
+    "uri": "Dashboard.feature"
+  }
+]

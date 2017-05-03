@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="55.550152">
+<testcase classname="Verifying options in Dashboard" name="verify Options Under AboutTab" time="12.452472">
+<system-out><![CDATA[Given I go to UNO on "Mozilla"..............................................passed
+And I click on "ABOUT"......................................................passed
+Then I verifyOptionsUnderTab "ABOUT_UNO"....................................passed
+Then I verifyOptionsUnderTab "UNO_AT_GLANCE"................................passed
+Then I verifyOptionsUnderTab "MISSION_VISION"...............................passed
+Then I verifyOptionsUnderTab "Administrative_OFFICE"........................passed
+Then I verifyOptionsUnderTab "OFFICE_PRESIDENT".............................passed
+Then I verifyOptionsUnderTab "ALUMNI".......................................passed
+Then I verifyOptionsUnderTab "UNO_HISTORY"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying options in Dashboard" name="verify Regarding Prospective Student Tab Navigation Options Under AboutTab" time="8.409079">
+<failure message="org.junit.ComparisonFailure: expected:&lt;http://[www.]uno.edu/prospectives...&gt; but was:&lt;http://[]uno.edu/prospectives...&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefination.AllStepMethods.i_verifyThePageUrlIs(AllStepMethods.java:91)&#13;&#10;&#9;at ✽.Then I verifyThePageUrlIs &quot;http://uno.edu/prospectivestudents/index.aspx&quot;(Dashboard.feature:17)&#13;&#10;"><![CDATA[Given I go to UNO on "Mozilla"..............................................passed
+And I click on "PROSPECTIVE_STUDENTS".......................................passed
+Then I verifyThePageUrlIs "http://uno.edu/prospectivestudents/index.aspx"...failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<http://[www.]uno.edu/prospectives...> but was:<http://[]uno.edu/prospectives...>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefination.AllStepMethods.i_verifyThePageUrlIs(AllStepMethods.java:91)
+	at ✽.Then I verifyThePageUrlIs "http://uno.edu/prospectivestudents/index.aspx"(Dashboard.feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Verifying options in Dashboard" name="verify Footer Links" time="8.241858">
+<system-out><![CDATA[Given I go to UNO on "Mozilla"..............................................passed
+Then I verifyFooterLink "NON_DISC_FTR_LNK"..................................passed
+Then I verifyFooterLink "EMERGENCY_FTR_LNK".................................passed
+Then I verifyFooterLink "CONTACT_FTR_LNK"...................................passed
+Then I verifyFooterLink "SACSOC_FTR_LNK"....................................passed
+Then I verifyFooterLink "COPYRIGHT_FTR_LNK".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying options in Dashboard" name="verify Facebook From Dashboard" time="11.851143">
+<system-out><![CDATA[Given I go to UNO on "Mozilla"..............................................passed
+And I click on "FACEBOOK"...................................................passed
+Then I verifyThePageUrlIs "https://www.facebook.com/UniversityOfNewOrleans".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying options in Dashboard" name="verifying Giving Link" time="14.5956">
+<system-out><![CDATA[Given I go to UNO on "Mozilla"..............................................passed
+And I click on "GIVING".....................................................passed
+And SwitchToChildWindow "1".................................................passed
+Then hoveron "Gift_BUSINESS_ADMIN"..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
